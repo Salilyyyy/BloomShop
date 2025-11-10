@@ -81,7 +81,7 @@ export const Hero = () => {
             transition={{ delay: 1.4, type: 'spring', stiffness: 200 }}
           >
             <dt className="text-xs uppercase tracking-[0.3em] text-brand-charcoal/50">Installations</dt>
-            <dd className="font-display text-3xl text-brand-moss">650+</dd>
+            <dd className="font-display text-3xl text-brand-charcoal">650+</dd>
           </motion.div>
 
           <motion.div
@@ -90,7 +90,7 @@ export const Hero = () => {
             transition={{ delay: 1.5, type: 'spring', stiffness: 200 }}
           >
             <dt className="text-xs uppercase tracking-[0.3em] text-brand-charcoal/50">Same-day citywide</dt>
-            <dd className="font-display text-3xl text-brand-moss">12</dd>
+            <dd className="font-display text-3xl text-brand-charcoal">12</dd>
           </motion.div>
 
           <motion.div
@@ -99,7 +99,7 @@ export const Hero = () => {
             transition={{ delay: 1.6, type: 'spring', stiffness: 200 }}
           >
             <dt className="text-xs uppercase tracking-[0.3em] text-brand-charcoal/50">Designers</dt>
-            <dd className="font-display text-3xl text-brand-moss">18</dd>
+            <dd className="font-display text-3xl text-brand-charcoal">18</dd>
           </motion.div>
 
           <motion.div
@@ -108,7 +108,7 @@ export const Hero = () => {
             transition={{ delay: 1.7, type: 'spring', stiffness: 200 }}
           >
             <dt className="text-xs uppercase tracking-[0.3em] text-brand-charcoal/50">Rating</dt>
-            <dd className="font-display text-3xl text-brand-moss">4.9</dd>
+            <dd className="font-display text-3xl text-brand-charcoal">4.9</dd>
           </motion.div>
         </motion.dl>
       </motion.div>

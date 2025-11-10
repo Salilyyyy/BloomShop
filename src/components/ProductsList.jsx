@@ -18,7 +18,7 @@ export const ProductsList = () => {
         viewport={{ once: true }}
       >
         <motion.p
-          className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-charcoal/50 dark:text-white/50"
+          className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-charcoal/50 "
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
@@ -27,7 +27,7 @@ export const ProductsList = () => {
           Our collection
         </motion.p>
         <motion.h2
-          className="mt-2 font-display text-3xl text-brand-charcoal dark:text-white sm:text-4xl"
+          className="mt-2 font-display text-3xl text-brand-charcoal sm:text-4xl"
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
@@ -59,7 +59,7 @@ export const ProductsList = () => {
                 className="h-48 w-full object-cover transition duration-700 group-hover:scale-105"
               />
               <motion.span
-                className="absolute left-4 top-4 rounded-full bg-white/80 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.4em] text-brand-charcoal shadow-sm dark:bg-black/60 dark:text-white"
+                className="absolute left-4 top-4 rounded-full bg-white/80 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.4em] text-brand-charcoal shadow-sm "
                 initial={{ scale: 0 }}
                 whileInView={{ scale: 1 }}
                 transition={{ delay: index * 0.05 + 0.3, type: 'spring', stiffness: 200 }}
@@ -71,7 +71,7 @@ export const ProductsList = () => {
             <div className="flex flex-1 flex-col gap-4 p-5">
               <div>
                 <motion.h3
-                  className="font-display text-xl text-brand-charcoal dark:text-white"
+                  className="font-display text-xl text-brand-charcoal "
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.05 + 0.4, duration: 0.6 }}
@@ -80,7 +80,7 @@ export const ProductsList = () => {
                   {product.name}
                 </motion.h3>
                 <motion.p
-                  className="mt-1 text-sm text-brand-charcoal/70 dark:text-white/60"
+                  className="mt-1 text-sm text-brand-charcoal/70 "
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.05 + 0.5, duration: 0.6 }}
@@ -91,7 +91,7 @@ export const ProductsList = () => {
               </div>
               <div className="flex items-center justify-between mt-auto">
                 <motion.span
-                  className="text-lg font-semibold text-brand-moss dark:text-brand-petal"
+                  className="text-lg font-semibold text-brand-charcoal"
                   initial={{ opacity: 0, scale: 0.8 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ delay: index * 0.05 + 0.6, type: 'spring', stiffness: 200 }}

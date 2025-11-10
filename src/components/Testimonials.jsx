@@ -30,7 +30,7 @@ export const Testimonials = () => {
       viewport={{ once: true }}
     >
       <motion.p
-        className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-charcoal/50 dark:text-white/50"
+        className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-charcoal/50 "
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.6 }}
@@ -39,7 +39,7 @@ export const Testimonials = () => {
         Kind words
       </motion.p>
       <motion.h2
-        className="mt-2 font-display text-3xl text-brand-charcoal dark:text-white sm:text-4xl"
+        className="mt-2 font-display text-3xl text-brand-charcoal  sm:text-4xl"
         initial={{ y: 20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.6 }}
@@ -57,7 +57,7 @@ export const Testimonials = () => {
       >
         <motion.p
           key={activeTestimonial}
-          className="text-xl leading-relaxed text-brand-charcoal/90 dark:text-white"
+          className="text-xl leading-relaxed text-brand-charcoal/90 "
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -66,13 +66,13 @@ export const Testimonials = () => {
         </motion.p>
         <motion.div
           key={`info-${activeTestimonial}`}
-          className="mt-6 space-y-1 text-brand-charcoal dark:text-white"
+          className="mt-6 space-y-1 text-brand-charcoal "
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
           <p className="font-display text-2xl">{currentTestimonial.name}</p>
-          <p className="text-xs uppercase tracking-[0.35em] text-brand-charcoal/50 dark:text-white/40">
+          <p className="text-xs uppercase tracking-[0.35em] text-brand-charcoal/50 ">
             {currentTestimonial.title}
           </p>
         </motion.div>

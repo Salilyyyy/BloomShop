@@ -12,7 +12,7 @@ import { Footer } from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-white to-brand-petal/5">
+    <div className="min-h-screen bg-gradient-to-br from-brand-moss via-brand-petal to-brand-moss">
       <Header />
       <main className="relative">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 space-y-24">

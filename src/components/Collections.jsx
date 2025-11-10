@@ -41,7 +41,7 @@ export const Collections = () => {
         </div>
         <motion.a
           href="#"
-          className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-moss transition hover:text-brand-charcoal"
+          className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-charcoal transition hover:text-brand-charcoal"
           initial={{ opacity: 0, x: 20 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.4, duration: 0.6 }}
@@ -104,7 +104,7 @@ export const Collections = () => {
               </motion.p>
               <motion.a
                 href="#"
-                className="mt-auto inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.3em] text-brand-moss transition group-hover:gap-3"
+                className="mt-auto inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.3em] text-brand-charcoal transition group-hover:gap-3"
                 whileHover={{ x: 5 }}
               >
                 Explore

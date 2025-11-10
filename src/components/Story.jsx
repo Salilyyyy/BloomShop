@@ -18,7 +18,7 @@ export const Story = () => {
         viewport={{ once: true }}
       >
         <motion.span
-          className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-charcoal/50 dark:text-white/50"
+          className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-charcoal/50 "
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
@@ -27,7 +27,7 @@ export const Story = () => {
           Our atelier
         </motion.span>
         <motion.h2
-          className="font-display text-3xl text-brand-charcoal dark:text-white sm:text-4xl"
+          className="font-display text-3xl text-brand-charcoal  sm:text-4xl"
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
@@ -36,7 +36,7 @@ export const Story = () => {
           Crafted in a sunlit Williamsburg studio by artists who speak bloom fluently
         </motion.h2>
         <motion.p
-          className="text-base text-brand-charcoal/70 dark:text-white/70"
+          className="text-base text-brand-charcoal/70"
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
@@ -56,8 +56,8 @@ export const Story = () => {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.2 }}
           >
-            <h3 className="font-display text-xl text-brand-charcoal dark:text-white">Mindful sourcing</h3>
-            <p className="mt-3 text-brand-charcoal/70 dark:text-white/70">
+            <h3 className="font-display text-xl text-brand-charcoal ">Mindful sourcing</h3>
+            <p className="mt-3 text-brand-charcoal/70 ">
               We collaborate with regenerative farms and urban growers to champion slow floristry.
             </p>
           </motion.div>
@@ -66,8 +66,8 @@ export const Story = () => {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.2 }}
           >
-            <h3 className="font-display text-xl text-brand-charcoal dark:text-white">Art direction</h3>
-            <p className="mt-3 text-brand-charcoal/70 dark:text-white/70">
+            <h3 className="font-display text-xl text-brand-charcoal ">Art direction</h3>
+            <p className="mt-3 text-brand-charcoal/70 ">
               Every collection includes palettes, mood boards, and styling notes for seamless gifting.
             </p>
           </motion.div>
@@ -103,7 +103,7 @@ export const Story = () => {
             whileHover={{ scale: 1.05 }}
           />
           <motion.div
-            className="flex flex-1 flex-col justify-between rounded-3xl bg-brand-petal/40 p-6 text-brand-charcoal shadow-sm dark:bg-brand-moss/30 dark:text-white"
+            className="flex flex-1 flex-col justify-between rounded-3xl bg-brand-petal/40 p-6 text-brand-charcoal shadow-sm dark:bg-brand-moss/30"
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}

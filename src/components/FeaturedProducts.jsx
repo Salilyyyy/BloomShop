@@ -91,7 +91,7 @@ export const FeaturedProducts = () => {
               </div>
               <div className="flex items-center justify-between">
                 <motion.span
-                  className="text-lg font-semibold text-brand-moss"
+                  className="text-lg font-semibold text-brand-charcoal"
                   initial={{ opacity: 0, scale: 0.8 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ delay: index * 0.1 + 0.6, type: 'spring', stiffness: 200 }}

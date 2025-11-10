@@ -50,7 +50,7 @@ export const Highlights = () => {
             {item.icon}
           </motion.span>
           <motion.h3
-            className="font-display text-2xl text-brand-charcoal dark:text-white"
+            className="font-display text-2xl text-brand-charcoal "
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ delay: index * 0.2 + 0.4, duration: 0.6 }}
@@ -59,7 +59,7 @@ export const Highlights = () => {
             {item.title}
           </motion.h3>
           <motion.p
-            className="text-sm text-brand-charcoal/70 dark:text-white/70"
+            className="text-sm text-brand-charcoal/70 "
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ delay: index * 0.2 + 0.5, duration: 0.6 }}
